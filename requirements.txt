@@ -1,0 +1,4 @@
+erddapy
+netCDF4
+pandas
+pyarrow    
