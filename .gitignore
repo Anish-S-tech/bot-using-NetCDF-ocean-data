@@ -1,8 +1,51 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-.DS_Store
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
 
+# Virtual environments
 venv/
+venv311/
+.env/
+.venv/
+.envrc
 
-.env
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# PostgreSQL dumps
+*.sql
+*.dump
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Models
+models/*.bin
+models/*.gguf
+models/*.pth
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# dotenv
+.env.local
+.env.*
