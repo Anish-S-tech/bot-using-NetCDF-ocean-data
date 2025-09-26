@@ -38,7 +38,7 @@ pip install -r requirements.txt
 2. Create a .env File (Project Settings)
 
 # Database
-DB_URI=postgresql://postgres:yourpassword@localhost:5432/argo_db
+DB_URI=postgresql://postgres:Anish%401718@localhost:5432/argo_db
 
 # Vector Database Location
 CHROMA_PATH=vectorstore/chroma_db
