@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "server.js",
+    "bot-using-NetCDF-ocean-data/views"
+  ],
+  "ext": "js,hbs,json",
+  "ignore": [
+    "node_modules",
+    "venv",
+    "bot-using-NetCDF-ocean-data/data",
+    "bot-using-NetCDF-ocean-data/vectorstore",
+    "**/*.parquet",
+    "**/*.sqlite3",
+    "**/*.bin",
+    "**/*.pickle"
+  ],
+  "delay": "300ms",
+  "legacyWatch": true
+}
+
